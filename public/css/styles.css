@@ -19,7 +19,7 @@ h1 {
 }
 
 textarea {
-  display: table;
+  display: block;
   margin: 0 auto;
   min-height: 250px;
   width: 50%;
@@ -50,4 +50,14 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   width: 50%;
+}
+
+.output-container div {
+  float: left;
+  width: 50%;
+}
+
+.output-class-names {
+  background-color: #FA6D9D;
+  color: #FFF;
 }
