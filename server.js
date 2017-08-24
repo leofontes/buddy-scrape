@@ -5,10 +5,6 @@ const app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-app.post('/scrape', function(req, res) {
-  
-});
-
 app.listen(PORT, function() {
   console.log("Server started on port " + PORT);
 });
